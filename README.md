@@ -30,11 +30,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](design/Screenshot 2024-01-05 at 2.19.41 PM.png)
+![](design/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://https://sweetcaroline36.github.io/ExpenseChart-Challenge/)
+- Live Site URL: [https://https://sweetcaroline36.github.io/ExpenseChart-Challenge/](https://https://sweetcaroline36.github.io/ExpenseChart-Challenge/)
 
 ## My process
 
@@ -59,5 +59,5 @@ I want to work on expanding an idea like this into a full-scale application. I p
 
 ## Author
 
-- Frontend Mentor - [@SweetCaroline36](hhttps://www.frontendmentor.io/profile/SweetCaroline36)
+- Frontend Mentor - [@SweetCaroline36](https://www.frontendmentor.io/profile/SweetCaroline36)
 - Instagram - [@caroline.a.conner](https://www.instagram.com/caroline.a.conner/)
