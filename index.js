@@ -48,6 +48,7 @@ data.forEach((x) => {
   amounts.push(x.amount);
 });
 
+//sort amounts to have highest value as first element
 amounts.sort(function (a, b) {
   return b - a;
 });
