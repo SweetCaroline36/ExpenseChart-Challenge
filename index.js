@@ -1,8 +1,7 @@
 const d = new Date();
 let currentDay = d.getDay() - 1;
 
-// const jsonData = JSON.parse("data.json");
-// alert(jsonData[0][0]);
+//const jsonData = JSON.parse("data.json");
 
 if (currentDay === -1) {
   currentDay = 6;

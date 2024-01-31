@@ -38,7 +38,7 @@ Users should be able to:
 
 ## My process
 
-I built the website out with HTML and CSS before dealing with the live updating bars. I couldn't figure out how to reference the JSON data directly from the file, so during development I created a variable within the JS that held all that data. The math wasn't bad; I just made each bar's height a percentage of that day's spending out of the highest spender. That could perhaps be misleading week to week as overall costs are greater or smaller, but for the purposes of the challenge it works. I built the site mobile-first.
+I built the website out with HTML and CSS before dealing with the live updating bars. I couldn't figure out how to reference the JSON data directly from the file, so during development I created a variable within the JS that held all that data. The math wasn't bad; I just made each bar's height a percentage of that day's spending out of the highest spender. That could perhaps be misleading week to week as overall costs are greater or smaller, but for the purposes of the challenge it works. I built the site mobile-first. Right now the JSON file doesn't do anything, as I had trouble referencing the data separately. I plan on returning to that, and in the meantime the data exists in a JS variable.
 
 ### Built with
 
