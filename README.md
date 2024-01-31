@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://https://sweetcaroline36.github.io/ExpenseChart-Challenge/](https://https://sweetcaroline36.github.io/ExpenseChart-Challenge/)
+- Live Site URL: [https://sweetcaroline36.github.io/ExpenseChart-Challenge/](https://sweetcaroline36.github.io/ExpenseChart-Challenge/)
 
 ## My process
 
