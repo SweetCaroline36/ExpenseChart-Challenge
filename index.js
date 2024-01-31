@@ -1,15 +1,9 @@
 const d = new Date();
 let currentDay = d.getDay() - 1;
 
-//const jsonData = JSON.parse("data.json");
-
 if (currentDay === -1) {
   currentDay = 6;
 }
-
-const days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
-
-const bars = [];
 
 const data = [
   {
@@ -38,7 +32,7 @@ const data = [
   },
   {
     day: "sun",
-    amount: 35.48,
+    amount: 25.48,
   },
 ];
 
@@ -52,13 +46,17 @@ amounts.sort(function (a, b) {
   return b - a;
 });
 
+//sum all amounts
 const sum = amounts.reduce((total, num) => {
   return total + num;
 });
 
+//display sum
 const sumDisplay = document.getElementById("total-sum");
 sumDisplay.textContent = "$" + sum;
 
+//generate bars
+const bars = [];
 for (let i = 0; i < 7; i++) {
   const name = "day-" + (i + 1);
   const bar = document.getElementById(name);
@@ -67,4 +65,5 @@ for (let i = 0; i < 7; i++) {
   bars[i].children[0].textContent = "$" + data[i].amount;
 }
 
+//turn today's bar blue
 bars[currentDay].children[1].style.backgroundColor = "hsl(186, 34%, 60%)";
